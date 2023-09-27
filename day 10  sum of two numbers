@@ -1,0 +1,15 @@
+#include<iostream>
+#include<math.h>
+int main(){
+    int a , b , sum;
+    printf("enter a:");
+    scanf("%d" , &a);
+    printf("enter b");
+    scanf("%d" , &b);
+
+
+    printf("number is %d \n" , sum = a + b);
+    return 0;
+}
+
+
