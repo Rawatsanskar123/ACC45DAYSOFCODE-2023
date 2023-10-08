@@ -1,0 +1,9 @@
+#include<iostream>
+#include<math.h>
+int main(){
+    int isSunday = 1;
+    int isMonday = 1;
+    printf("%d \n" , isSunday && isMonday);
+    return 0;
+}
+ 
