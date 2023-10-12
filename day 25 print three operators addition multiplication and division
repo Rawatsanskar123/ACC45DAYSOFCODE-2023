@@ -1,0 +1,8 @@
+#include<iostream>
+#include<math.h>
+int main(){
+    printf("%d \n" , 3 + 4);
+    printf("%d \n" , 5 * 2);
+    printf("%f \n" , 7.0/2);
+    return 0;
+}
