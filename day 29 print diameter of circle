@@ -1,0 +1,15 @@
+#include<iostream>
+#include<math.h>
+int main(){
+    float D, r;
+
+    printf("enter the dia of circle \n");
+    scanf("%f" , &r);
+
+    D = 2* r;
+    printf("diameter of circle is %f \n" , D);
+    return 0;
+}
+
+    
+
