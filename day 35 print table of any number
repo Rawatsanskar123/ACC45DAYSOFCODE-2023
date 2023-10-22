@@ -1,0 +1,16 @@
+//To print any table
+#include<stdio.h>
+int main(){
+    int a, n;
+    printf("enter any number: \n");
+    scanf("%d" , &n);
+    a = 1;
+    do
+    { 
+        printf("\n %d" , a * n);
+        a++;
+    }
+    while(a<=10);
+    return 0;
+}
+    
