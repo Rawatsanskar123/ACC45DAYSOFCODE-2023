@@ -1,0 +1,19 @@
+#include<iostream>
+#include<math.h>
+int main(){ 
+    int physics, chemistry , mathematics , hindi , english;
+    float Total, average , percentage;
+
+    printf("enter marks of five subjects");
+    scanf("%d%d%d%d%d" , &physics, &chemistry ,&mathematics , &hindi , &english);
+
+    Total = physics + chemistry + mathematics + hindi + english;
+    average = Total / 5;
+    percentage = (Total / 500)  * 100;
+
+
+    printf("total marks %.2f\n" , Total);
+    printf("average marks %.2f\n" , average);
+    printf("percentage marks %.2f\n" , percentage);
+    return 0;
+}
